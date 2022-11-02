@@ -59,7 +59,7 @@
                     <h3 class="devInfo__title">Skills</h3>
                     <div class="devInfo__skills">
 
-                        {% for skill in topSkills %}
+                        {% for skill in topskills %}
                         <div class="devSkill">
                             <h4 class="devSkill__title">{{skill.name}}</h4>
                             <p class="devSkill__info">{{skill.description}}</p>
@@ -71,7 +71,7 @@
                         <h3 class="devInfo__subtitle">Other Skills</h3>
                         <div class="devInfo__otherSkills">
 
-                            {% for skill in otherSkills %}
+                            {% for skill in otherskills %}
                             <span class="tag tag--pill tag--sub tag--lg">
                                 <small>{{skill}}</small>
                             </span>
